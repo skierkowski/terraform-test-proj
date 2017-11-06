@@ -1,4 +1,6 @@
-variable "name" {}
+variable "name" {
+ default = "world" 
+}
 
 resource "random_id" "random" {
   keepers {
